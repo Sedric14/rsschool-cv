@@ -19,3 +19,17 @@
 ---
 * **Java** (not-professional)
 * **Google Search** (basic)
+
+### Code Example
+---
+```
+while(alive){
+   if(isLearning()){
+      joy()
+   }if else(isAction()){
+      pleasure()
+   }if else(isResult()){
+      satisfactin()
+   }
+};
+```
