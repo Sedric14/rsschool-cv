@@ -1,0 +1,252 @@
+@font-face {
+  font-family: Regular;
+  src: url("assets/fonts/IndieFlower-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("assets/fonts/OpenSans_SemiCondensed-BoldItalic.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(#fffdfe, #f5eded00), url("assets/img/background_cv.jpg");
+  background-size: inherit;
+  font-family: OpenSans;
+}
+
+li {
+  line-height: 200%;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  position: fixed;
+  background-color: white;
+}
+
+#avatar {
+  position: fixed;
+  top: 2%;
+  right: 5%;
+  height: 30%;
+  z-index: 3;
+}
+
+.profile .salutation {
+  font-size: 50%;
+  padding-left: 3%;
+}
+
+.profile {
+  position: fixed;
+  top: 6%;
+  left: 0;
+  font-family: Regular;
+  line-height: 0;
+  width: 95%;
+  padding: 2% 0 0 5%;
+  font-size: 200%;
+  background-image: linear-gradient(rgb(58, 57, 57, 1) 65%, rgb(29, 29, 29)) ;
+  z-index: 2;
+  border: 1px solid gray;
+  color: rgb(206, 203, 203);
+  text-shadow: 0px 2px 3px #171717;
+  box-shadow: 0px 2px 3px rgb(129, 129, 129);
+  border-radius:20px;
+  margin-right: 3%;
+}
+
+.profile::after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  left: 1.2%;
+  right: 1.5%;
+  bottom: 7%;
+  border: 5px solid rgb(206, 203, 203);
+  border-radius: 12px;
+
+}
+
+h2 span{
+  position: relative;
+  top: -300px; 
+}
+
+#contacts {
+  background-image: linear-gradient(to bottom, rgba(9, 37, 11, 0.65) 85%, rgba(54, 53, 14, 0.65) );
+}
+
+#aboutMe {
+  background-image: linear-gradient( rgba(54, 53, 14, 0.65)85%,  rgba(29, 10, 10, 0.65));
+  padding-left: 4%;
+}
+
+#skills {
+  background-image: linear-gradient(rgba(29, 10, 10, 0.65) 85%, rgba(46, 24, 7, 0.65)) ;
+}
+
+#experience {
+  background-image: linear-gradient( rgba(46, 24, 7, 0.65) 85%, rgba(31, 5, 34, 0.65));
+}
+
+#english {
+  background-image: linear-gradient(rgba(31, 5, 34, 0.65) 85%, rgba(6, 6, 34, 0.75)) ;
+}
+
+#codeExample {
+  background-image: linear-gradient( rgba(6, 6, 34, 0.65) 90%, rgba(46, 46, 46, 0.65));
+  padding-left: 4%;
+}
+.nav {
+  margin: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 0px;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  margin-top: 20%;
+}
+
+.main-container {
+  width: 75%;
+  margin-left: auto;
+}
+
+.section {
+  border-bottom: 2px solid rgb(214, 212, 212);
+  border-right:2px solid gray;
+  border-top: 2px solid rgb(59, 59, 59);
+  border-left: 2px solid gray;
+  background: rgba(29, 10, 10, 0.75);
+  color: rgb(206, 203, 203);
+  text-shadow: 0px 2px 3px #171717;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.section:hover {
+  transition: .5s;
+  font-size: 100%;
+  transform: translateX(-5%);
+
+}
+
+.section:hover .expHover {
+  opacity: 1;
+  font-size: 100%;
+}
+
+.expHover {
+  opacity: 0;
+  font-size: 0;
+}
+
+.section-title {
+  text-align: center;
+  color: yellow;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.397);
+  font-size: x-large;
+  text-shadow: 10px 10px 35px #fffdfe;
+line-height: 0;
+}
+
+.footer div {
+  padding: 1% 5%;
+}
+
+.footer img{
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .profile{
+    font-size: 100%;
+  }
+  
+  #avatar{
+    height: 18%;
+    top: 4%;
+  }
+
+  .header{
+    top: -10px;
+  }
+
+  .nav-link{
+    padding-right: 5px;
+    padding-left: 5px;
+    
+  }
+
+  h2 span{
+    position: relative;
+    top: -180px; 
+  }
+
+  .main {
+    display: flex;
+    margin-top: 25%;
+  }
+
+  .nav-list{
+    padding: 0;
+  }
+
+  .nav{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .main-container{
+    width: 80%;
+  }
+
+  .footer img{
+    height: 40px;
+  }
+
+  .footer{
+    font-size: medium;
+  }
+
+  .footer div {
+    padding: 2px;
+  }
+  
+}
+
