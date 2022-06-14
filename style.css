@@ -193,3 +193,13 @@ line-height: 0;
   height: 50px;
 }
 
+@media (max-width: 768px) {
+  .profile{
+    font-size: 100%;
+  }
+  
+  #avatar{
+    height: 15%;
+  }
+}
+
