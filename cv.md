@@ -20,3 +20,37 @@
 * I like immersion in the sensations of the surrounding world
 * I love creating things
 * Life is fun and varied
+
+### Skills
+---
+* **Java** (not-professional)
+* **Google Search** (basic)
+* **JavaScript** (beginner)
+* **JavaScript** (beginner)
+* **HTML** (beginner)
+* **CSS** (beginner)
+* **Git, GitHub** (beginner)
+* **VSCode, IntellijIdea, AndroidStudio**
+* **Kotlin** (beginner)
+* **Adobe Photoshop**
+* **Corel Draw**
+* **Blender**
+
+### Code Example
+---
+```
+while(alive){
+   if(isLearning()){
+      joy()
+   }if else(isAction()){
+      pleasure()
+   }if else(isResult()){
+      satisfactin()
+   }
+};
+```
+### Experience
+---
+ #### ***Education***
+* School
+* Life
