@@ -54,3 +54,9 @@ while(alive){
  #### ***Education***
 * School
 * Life
+
+### English
+---
+* **Read:** I can and understand
+* **Listen:** I can but I don't understand you
+* **Speak:** I can but you don't understand me
